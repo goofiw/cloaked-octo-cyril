@@ -1,6 +1,6 @@
 var express = require('express');
 var mongoose = require('mongoose');
-var jobModel = require('./models/Job');
+var jobModel = require(__dirname + '/models/Job');
 
 var app = express();
 
@@ -28,4 +28,4 @@ con.once('open', function(){
   jobModel.seedJobs();
 });
 
-app.listen(process.env.PORT || 8080);
+app.listen(process.env.PORT || 3000);
