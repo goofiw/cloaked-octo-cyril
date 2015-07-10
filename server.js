@@ -1,6 +1,6 @@
 var express = require('express');
 var mongoose = require('mongoose');
-var jobModel = require('./models/Job')
+var jobModel = require('./models/Job.js')
 
 var app = express();
 
