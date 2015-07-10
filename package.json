@@ -18,7 +18,8 @@
   "homepage": "https://github.com/goofiw/cloaked-octo-cyril#readme",
   "dependencies": {
     "express": "^4.13.1",
-    "jade": "^1.11.0"
+    "jade": "^1.11.0",
+    "mongoose": "^4.0.6"
   },
   "devDependencies": {
     "bower": "^1.4.1"
